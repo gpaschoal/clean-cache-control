@@ -1,6 +1,6 @@
 import { ValidationComposite } from '../../presentation/helpers/validators/valitation-composite'
 import { makeSignUpValidation } from './signup-validation'
-import { RequiredFieldValidation } from '../../presentation/helpers/validators/required-field-valitation'
+import { RequiredFieldValidation } from '../../presentation/helpers/validators/required-field-validation'
 import { Validation } from '../../presentation/helpers/validators/validation'
 
 jest.mock('../../presentation/helpers/validators/valitation-composite')
